@@ -10,4 +10,4 @@ jobs:
         uses: kazukazuinaina/action-mypy@master
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review # Change reporter.
+          reporter: github-pr-check # Change reporter.

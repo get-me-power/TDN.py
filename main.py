@@ -1,4 +1,5 @@
 from pykakasi import kakasi
+import numpy as np
 
 vowels = ['a', 'i', 'u', 'e', 'o']
 
@@ -13,3 +14,6 @@ for vowel in vowels:
     print(text)
 
 print('result :', text)
+
+fdakjfdaj
+dfjkajkfdasj
