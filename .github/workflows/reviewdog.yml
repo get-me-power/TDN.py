@@ -2,12 +2,12 @@ name: reviewdog
 on: [push, pull_request]
 jobs:
   vint:
-    name: runner / mypy
+    name: runner / pyflakes
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: vint
+      - name: pyflakes
         uses: kazukazuinaina/action-pyflakes@master
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review # Change reporter.
+          reporter: github-pr-check# Change reporter.
